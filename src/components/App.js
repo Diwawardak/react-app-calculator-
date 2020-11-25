@@ -157,7 +157,9 @@ const App = () => {
  };
 
 
-    return <div className="App">
+    return <div className="container">
+    
+    <div className="App">
         <div className="top"></div>
         <div className="time">
             {time.getHours().toString().padStart(2, '0')}:{time.getMinutes().toString().padStart(2, '0')}
@@ -187,6 +189,9 @@ const App = () => {
         
         <div className="bottom"></div>
     </div>
+    </div>
+
+
 };
 
 export default App;
